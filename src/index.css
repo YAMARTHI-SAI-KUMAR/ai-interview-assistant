@@ -1,0 +1,31 @@
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: #f5f5f5;
+}
+.container {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+.chat-wrap {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.chat-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+.chat-input {
+  margin-top: 12px;
+}
+pre {
+  margin: 0;
+}
